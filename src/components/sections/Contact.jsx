@@ -7,7 +7,7 @@ export const Contact = () => {
         email : "",
         message : ""
     })
-    const [showSuccess, setShowSuccess] = useState(true)
+    const [showSuccess, setShowSuccess] = useState(false)
     const handleSubmit = (e)=>{
         e.preventDefault();
         emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, e.target, import.meta.env.VITE_API_KEY).then((result)=>{
