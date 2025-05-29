@@ -18,7 +18,7 @@ export const About = () => {
           About Me{" "}
         </h2>
         <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-          <p className="text-gray-300 mb-6">
+          <p className="text-gray-300 mb-6 text-justify">
             I’m a web developer who loves building cool and useful web apps. I
             work mainly with Java Spring on the back end and React.js on the
             front end, and I’ve built a bunch of projects that I’m really proud
