@@ -1,17 +1,18 @@
 import emailjs from 'emailjs-com'
 import { useState } from 'react';
-
+import { SuccessBanner } from '../SuccessBanner';
 export const Contact = () => {
     const [formData, setFormData] = useState({
         name : "",
         email : "",
         message : ""
     })
-    
+    const [showSuccess, setShowSuccess] = useState(false)
     const handleSubmit = (e)=>{
         e.preventDefault();
         emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, e.target, import.meta.env.VITE_API_KEY).then((result)=>{
-            alert("Message sent!")
+            //alert("Message sent!")
+            setShowSuccess(true)
             setFormData({name: "", email:"", message:""})
         }).catch(()=>alert("Something went wrong.. Try again!"))
     }
@@ -64,6 +65,7 @@ export const Contact = () => {
           <button type="submit" className="w-full bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246, 0.4)]">Submit</button>
         </form>
       </div>
+      <SuccessBanner message="Message sent successfully!" show={showSuccess} onClose={()=>setShowSuccess(false)} />
     </section>
   );
 };
