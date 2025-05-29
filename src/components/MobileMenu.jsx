@@ -5,7 +5,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
         menuOpen
           ? "h-screen opacity-100 pointer-events-auto"
           : "h-0 opacity-0 pointer-events-none"
-      }`}
+      } bg-[rgba(10,10,10,0.4)] backdrop-blur-sm`}
     >
       <button
         onClick={() => setMenuOpen(false)}
