@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Personal Portfolio",
+    "description": "This is my personal portfolio website, designed and built from scratch using React and Tailwind CSS. It’s a single-page application that showcases who I am, what I do, and the projects I've worked on. The design is responsive, smooth, and modern, with a mobile-friendly navigation experience.",
+    "tech": ["React", "TailwindCSS", "GitHub Pages"],
+    "details": "https://github.com/angeldamcheski/react-personal-portfolio"
+  },
+  {
+    "title": "Quizbot",
+    "description": "Helped develop modern, responsive views for QuizBot, an AI-powered quiz assistant that summarizes study material and generates questions using language models. Built the front-end using React.js, Axios, and Bootstrap, focusing on clean design and user-friendly interactions.",
+    "tech": ["React","Axios", "Bootstrap"],
+    "details": "https://github.com/QuizBott/QuizBot-Frontend"
+  },
+  {
+    "title": "Secure File Sharing Using Access Control",
+    "description": "Secure File Sharing Using Access Control is a web application developed with Java Spring, PostgreSQL, Thymeleaf, and Amazon S3. It allows users to securely share their files, choosing who has access to them. The application features a layered architecture with a web layer, service layer, and repository layer.",
+    "tech": ["Java Spring", "PostgreSQL", "Thymeleaf", "AmazonS3"],
+    "details": "https://github.com/angeldamcheski/Secure-File-Sharing-Using-Access-Control"
+  },
+  {
+    "title": "Blog Web Application",
+    "description": "I have successfully completed a web application project that provides secure user registration and two-factor authentication (2FA) for safe login. The application ensures full password privacy and integrity, along with features for verified login using 2FA and user logout. It is built with Node.js using Express.js for the back-end and MongoDB for secure storage of user data.",
+    "tech": ["ExpressJS", "MongoDB", "Pug View Engine"],
+    "details": "https://github.com/angeldamcheski/Information-Security"
+  }
+]
