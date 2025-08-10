@@ -1,9 +1,18 @@
-import { useEffect } from "react";
-
+import { useEffect, useState } from "react";
+import { applyStoredTheme, themeToggler } from "../utils/themeToggle";
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
+  const [isLight, setIsLight] = useState(false);
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
   }, [menuOpen]);
+  useEffect(() => {
+    applyStoredTheme();
+    setIsLight(document.documentElement.classList.contains("light"));
+  }, []);
+  const handleThemeToggle = () => {
+    themeToggler();
+    setIsLight((prev) => !prev);
+  };
   return (
     <nav className=" fixed top-0 w-full z-40 bg-[rgba(10, 10, 10, 0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
       <div className="max-w-5xl mx-auto px-4">
@@ -18,6 +27,12 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             onClick={() => setMenuOpen((prev) => !prev)}
           >
             &#9776;
+          </div>
+          <div
+            className="text-2xl hover:cursor-pointer"
+            onClick={handleThemeToggle}
+          >
+            <span className="hidden">a</span>{isLight ? '🌙' : "☀️"}
           </div>
           <div className="hidden md:flex items-center space-x-8">
             <a
