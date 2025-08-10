@@ -17,7 +17,7 @@ export const About = () => {
         <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
           About Me{" "}
         </h2>
-        <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
+        <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all light:border-black/10">
           <p className="text-gray-300 mb-6 text-justify light:text-stone-800">
             I’m a web developer who loves building cool and useful web apps. I
             work mainly with Java Spring on the back end and React.js on the
