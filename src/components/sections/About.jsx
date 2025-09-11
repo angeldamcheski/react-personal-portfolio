@@ -1,5 +1,5 @@
 export const About = () => {
-  const frontendSkills = ["React", "HTML", "Bootstrap", "TailwindCSS"];
+  const frontendSkills = ["React", "HTML", "TailwindCSS", "SCSS", "Bootstrap"];
   const backendSkills = [
     "Java Spring",
     "Django",
@@ -20,9 +20,24 @@ export const About = () => {
         <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all light:border-black/10">
           <p className="text-gray-300 mb-6 text-justify light:text-stone-800">
             I’m a web developer who loves building cool and useful web apps. I
-            work mainly with Java Spring on the back end and React.js on the
-            front end, and I’ve built a bunch of projects that I’m really proud
-            of. I’m all about writing clean code, learning new things, and
+            work mainly with{" "}
+            <code
+              className="  px-1 py-0.5 rounded font-mono text-sm
+    bg-stone-800 text-stone-200
+    light:bg-stone-300 light:text-stone-700 "
+            >
+              Java Spring
+            </code>{" "}
+            on the back end and{" "}
+            <code
+              className="  px-1 py-0.5 rounded font-mono text-sm
+    bg-stone-800 text-stone-200
+    light:bg-stone-300 light:text-stone-700 "
+            >
+              ReactJS
+            </code>{" "}
+            on the front end, and I’ve built a bunch of projects that I’m really
+            proud of. I’m all about writing clean code, learning new things, and
             working with great teams. Tech is always changing, and that’s what
             keeps me excited—I enjoy diving into new challenges and growing a
             little more every day. Whether I’m solving a tricky bug or building
@@ -71,6 +86,16 @@ export const About = () => {
           <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all light:border-black/10">
             <h3 className="text-xl font-bold mb-4">💼 Work Experience</h3>
             <div className="space-y-4 text-gray-300 light:text-stone-800">
+              <div>
+                <h4 className="font-semibold">
+                  Frontend Developer Intern @ GrabIT (July 2025 - Sept 2025)
+                </h4>
+                <p>
+                  Designed and implemented intuitive UI/UX for a property
+                  listings web app, ensuring a modern, responsive, and
+                  user-friendly experience
+                </p>
+              </div>
               <div>
                 <h4 className="font-semibold">Frontend Developer - QuizBot</h4>
                 <p>Developed modern looking and consistent UIs</p>
