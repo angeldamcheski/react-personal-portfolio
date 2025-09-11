@@ -27,7 +27,7 @@ export const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen flex items-center justify-center py-20  light:bg-neutral-200 pb-32"
+      className="min-h-screen flex items-center justify-center py-20  light:bg-neutral-200 pb-32 "
     >
       <div className="px-4 w-150">
         <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
@@ -72,7 +72,7 @@ export const Contact = () => {
               }
               rows={5}
               required
-              className="w-full bg-white/5 border light:text-stone-800 light:border-black/20 border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
+              className="w-full bg-white/5 border light:placeholder:text-stone-800/40 placeholder:text-gray-400/80  light:text-stone-800 light:border-black/20 border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
               placeholder="Your Message"
             />
           </div>

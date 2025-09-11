@@ -1,6 +1,6 @@
 export const Project = ({ title, description, tech, details }) => {
   return (
-    <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246, 0.1)] transition-all light:border-black/10">
+    <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 light:hover:bobrder-blue-500 hover:shadow-[0_2px_8px_rgba(59,130,246, 0.1)] transition-all light:border-black/10">
       <h3 className="text-xl font-bold mb-2">{title}</h3>
       <p className="text-gray-400 mb-4 text-justify light:text-stone-800">
         {description}

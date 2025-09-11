@@ -11,7 +11,7 @@ export const Home = () => {
           </span>
           <span>👋🏻</span>
           <br />
-          <span className="text-5xl md:text-7xl font-bold mb-6  leading-right bg-gradient-to-r from-blue-500 to-fuchsia-400 bg-clip-text text-transparent">
+          <span className="text-5xl md:text-7xl font-bold mb-6  leading-right bg-gradient-to-r from-blue-500 to-fuchsia-600 bg-clip-text text-transparent">
             I'm Angel Damcheski
           </span>
         </h1>
