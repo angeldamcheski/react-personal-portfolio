@@ -79,14 +79,14 @@ export const About = () => {
             ].map((section, i) => (
               <div
                 key={i}
-                className="rounded-xl p-6 hover:translate-y-1 transition-all border border-white/10 light:border-black/10"
+                className="rounded-xl  p-6 hover:bg-white/3 light:hover:bg-white/20 duration-300 transition-all border border-white/10 light:border-black/10"
               >
                 <h3 className="text-xl font-bold mb-4">{section.title}</h3>
                 <div className="flex flex-wrap gap-2">
                   {section.data.map((tech, index) => (
                     <span
                       key={index}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+                      className="bg-blue-500/10 border border-blue-500/20 text-blue-500 py-1 px-3 rounded-full text-xs hover:bg-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
                     >
                       {tech}
                     </span>
@@ -125,7 +125,7 @@ export const About = () => {
                     {educationCourses.map((course) => (
                       <span
                         key={course}
-                        className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-xs hover:bg-blue-500/30 transition"
+                        className="bg-blue-500/10 border border-blue-500/20 text-blue-500 py-1 px-3 rounded-full text-xs hover:bg-blue-500/30 transition"
                       >
                         {course}
                       </span>

@@ -1,5 +1,17 @@
 [
   {
+    "title": "Job Application System",
+    "description": "Developed a full-stack job application management system that allows users to browse job listings, apply for positions, and manage their applications. The system includes features for handling application workflows, user interactions, and structured data management, following a clean and scalable architecture.",
+    "tech": ["Java Spring", "PostgreSQL", "React", "REST APIs"],
+    "details": "https://github.com/angeldamcheski/job-application-system"
+  },
+  {
+    "title": "Multi-Database Synchronization Simulator",
+    "description": "Built a distributed system simulation where a Node.js service generates and manages data across multiple sources, while a Java Spring service synchronizes and processes that data into a centralized database. This project demonstrates inter-service communication, data consistency handling, and backend integration between different technologies.",
+    "tech": ["Node.js", "Java Spring","Thymeleaf", "REST APIs"],
+    "details": "https://github.com/angeldamcheski/node-multi-db-simulator"
+  },
+  {
     "title": "Personal Portfolio",
     "description": "This is my personal portfolio website, designed and built from scratch using React and Tailwind CSS. It’s a single-page application that showcases who I am, what I do, and the projects I've worked on. The design is responsive, smooth, and modern, with a mobile-friendly navigation experience.",
     "tech": ["React", "TailwindCSS", "GitHub Pages"],
