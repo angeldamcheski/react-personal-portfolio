@@ -4,7 +4,7 @@ export const Project = ({ title, description, tech, details }) => {
       className="group p-6 rounded-xl border border-white/10 bg-white/5 
                     transition-all duration-300
                      hover:bg-white/7 hover:border-blue-500/30 
-                     light:border-black/10 light:hover:bg-white/30 light:hover:border-blue-500/30"
+                     light:border-black/10 light:hover:bg-white/20 light:hover:border-blue-500/30"
     >
       <div className="flex flex-col h-full">
         {/* Title with subtle arrow reveal on card hover */}
